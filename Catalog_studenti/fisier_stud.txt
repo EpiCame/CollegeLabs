@@ -1,0 +1,10 @@
+1 bogdan 
+2 cosmin 
+3 alexa 
+4 ane
+5 teo 
+6 marian
+7 codrin
+8 mihai
+9 adriana 
+10 dan
