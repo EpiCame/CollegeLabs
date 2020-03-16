@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{1061a5a2-325b-49f7-a017-9b397539b917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{aba58d03-07e9-477b-99f4-7791d915f429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repository">
+      <UniqueIdentifier>{7c50d235-5e04-4053-ba5d-23cde08efa67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repository">
+      <UniqueIdentifier>{045a6fba-d68a-421c-aeff-f75284877ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{d6f16cfd-d0eb-4b3a-a07e-fd74f5843247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{b36cc3b5-8aa3-4d7d-b09b-00f3f82416c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{511be46a-b068-4470-a15f-f2616d5df2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domain">
+      <UniqueIdentifier>{674284f4-2a83-48c0-929f-ed9a67ab230f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.c">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo.c">
+      <Filter>Source Files\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.c">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.c">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Validation.c">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Validation.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
