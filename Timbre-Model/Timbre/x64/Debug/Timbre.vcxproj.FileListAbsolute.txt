@@ -1,0 +1,2 @@
+C:\Users\Asus\Desktop\OOP\Timbre-Model\Timbre\x64\Debug\Timbre.exe
+C:\Users\Asus\Desktop\OOP\Timbre-Model\Timbre\x64\Debug\Timbre.pdb
